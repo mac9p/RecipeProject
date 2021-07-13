@@ -16,4 +16,11 @@ public class Notes {
     private Recipe recipe;
     @Lob
     private String recipeNotes;
+
+    public Notes() {
+    }
+
+    public Notes(String recipeNotes) {
+        this.recipeNotes = recipeNotes;
+    }
 }
